@@ -1,0 +1,13 @@
+{
+    "database" : {
+        "name" : "postgres",
+        "user" : "muhammadali",
+        "password" : "Ea9Skh@6",
+        "dbName" : "blogdb",
+        "host" : "127.0.0.1",
+        "port" : "5432"
+    },
+    "server" : {
+        "port" : ":8089"
+    }
+}

@@ -1,0 +1,892 @@
+2018/09/19 15:40:46 database: established with 127.0.0.1:5432/blogdb
+2018/09/19 16:09:15 database: established with 127.0.0.1:5432/blogdb
+2018/09/19 16:09:15 {8089}
+2018/09/19 16:15:54 database: established with 127.0.0.1:5432/blogdb
+2018/09/19 16:17:12 database: established with 127.0.0.1:5432/blogdb
+2018/09/19 16:19:01 database: established with 127.0.0.1:5432/blogdb
+2018/09/19 16:36:48 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:11:57 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:11:57 Server err: listen tcp: address 8089: missing port in address
+2018/09/20 15:12:16 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:12:16 Server err: listen tcp: address 8089: missing port in address
+2018/09/20 15:21:02 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:21:02 Router initialized with port  8089
+2018/09/20 15:21:02 Server err: listen tcp: address 8089: missing port in address
+2018/09/20 15:22:53 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:22:53 Router initialized with port  8089
+2018/09/20 15:22:53 Server err: listen tcp :80: bind: permission denied
+2018/09/20 15:24:00 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:24:00 Router initialized with port  8089
+2018/09/20 15:24:00 Server err: listen tcp: address 8089: missing port in address
+2018/09/20 15:28:22 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:28:22 Router initialized with port  8089
+2018/09/20 15:28:22 Server err: listen tcp: address 8089: missing port in address
+2018/09/20 15:29:13 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:29:13 Router initialized with port  :8089
+2018/09/20 15:30:33 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:30:33 Router initialized with port  :8089
+2018/09/20 15:30:33 Server err: listen tcp :80: bind: permission denied
+2018/09/20 15:30:43 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:30:43 Router initialized with port  :8089
+2018/09/20 15:31:34 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:31:34 Router initialized with port  :8089
+2018/09/20 15:31:37 http: panic serving [::1]:44930: runtime error: invalid memory address or nil pointer dereference
+goroutine 18 [running]:
+net/http.(*conn).serve.func1(0xc4201680a0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc420182000, 0xc4200ae100)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc420182000, 0xc4200ae100)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201680a0, 0x736400, 0xc420068300)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:37 http: panic serving [::1]:44932: runtime error: invalid memory address or nil pointer dereference
+goroutine 19 [running]:
+net/http.(*conn).serve.func1(0xc420168140)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201ae000, 0xc4200ae200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201ae000, 0xc4200ae200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc420168140, 0x736400, 0xc420068440)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:37 http: panic serving [::1]:44934: runtime error: invalid memory address or nil pointer dereference
+goroutine 35 [running]:
+net/http.(*conn).serve.func1(0xc4201dc000)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201ae0e0, 0xc4201de000)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201ae0e0, 0xc4201de000)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201dc000, 0x736400, 0xc4201a80c0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:38 http: panic serving [::1]:44936: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc4201681e0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201f6000, 0xc42015e100)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201f6000, 0xc42015e100)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201681e0, 0x736400, 0xc4201520c0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:38 http: panic serving [::1]:44938: runtime error: invalid memory address or nil pointer dereference
+goroutine 37 [running]:
+net/http.(*conn).serve.func1(0xc4201dc0a0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201820e0, 0xc4201de100)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201820e0, 0xc4201de100)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201dc0a0, 0x736400, 0xc4201a81c0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:38 http: panic serving [::1]:44940: runtime error: invalid memory address or nil pointer dereference
+goroutine 11 [running]:
+net/http.(*conn).serve.func1(0xc4200ba8c0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201ae1c0, 0xc42015e200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201ae1c0, 0xc42015e200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200ba8c0, 0x736400, 0xc420152200)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:38 http: panic serving [::1]:44942: runtime error: invalid memory address or nil pointer dereference
+goroutine 22 [running]:
+net/http.(*conn).serve.func1(0xc420168280)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201f60e0, 0xc42015e300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201f60e0, 0xc42015e300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc420168280, 0x736400, 0xc420152280)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:38 http: panic serving [::1]:44944: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1(0xc420168320)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201ae2a0, 0xc42015e400)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201ae2a0, 0xc42015e400)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc420168320, 0x736400, 0xc420152340)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:38 http: panic serving [::1]:44946: runtime error: invalid memory address or nil pointer dereference
+goroutine 12 [running]:
+net/http.(*conn).serve.func1(0xc4200ba960)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201ae380, 0xc4201de200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201ae380, 0xc4201de200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200ba960, 0x736400, 0xc4201a8340)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:39 http: panic serving [::1]:44948: runtime error: invalid memory address or nil pointer dereference
+goroutine 13 [running]:
+net/http.(*conn).serve.func1(0xc4200baa00)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201821c0, 0xc4201de300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201821c0, 0xc4201de300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200baa00, 0x736400, 0xc4201a8440)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:39 http: panic serving [::1]:44950: runtime error: invalid memory address or nil pointer dereference
+goroutine 14 [running]:
+net/http.(*conn).serve.func1(0xc4200baaa0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201ae460, 0xc4200ae300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201ae460, 0xc4200ae300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200baaa0, 0x736400, 0xc420068680)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:39 http: panic serving [::1]:44952: runtime error: invalid memory address or nil pointer dereference
+goroutine 25 [running]:
+net/http.(*conn).serve.func1(0xc4201683c0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201ae540, 0xc42015e500)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201ae540, 0xc42015e500)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201683c0, 0x736400, 0xc420152540)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:43 http: panic serving [::1]:44954: runtime error: invalid memory address or nil pointer dereference
+goroutine 16 [running]:
+net/http.(*conn).serve.func1(0xc4200bab40)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201ae620, 0xc4200ae600)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201ae620, 0xc4200ae600)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200bab40, 0x736400, 0xc420068800)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:43 http: panic serving [::1]:44956: runtime error: invalid memory address or nil pointer dereference
+goroutine 50 [running]:
+net/http.(*conn).serve.func1(0xc4200babe0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201f61c0, 0xc4200ae500)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201f61c0, 0xc4200ae500)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200babe0, 0x736400, 0xc420068780)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:43 http: panic serving [::1]:44958: runtime error: invalid memory address or nil pointer dereference
+goroutine 51 [running]:
+net/http.(*conn).serve.func1(0xc4200bac80)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201f62a0, 0xc4200ae700)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201f62a0, 0xc4200ae700)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200bac80, 0x736400, 0xc420068900)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:48 http: panic serving [::1]:44960: runtime error: invalid memory address or nil pointer dereference
+goroutine 44 [running]:
+net/http.(*conn).serve.func1(0xc4201dc140)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201822a0, 0xc42015e600)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201822a0, 0xc42015e600)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201dc140, 0x736400, 0xc420152780)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:48 http: panic serving [::1]:44962: runtime error: invalid memory address or nil pointer dereference
+goroutine 45 [running]:
+net/http.(*conn).serve.func1(0xc4201dc1e0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201f6380, 0xc4201de400)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201f6380, 0xc4201de400)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201dc1e0, 0x736400, 0xc4201a8640)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:48 http: panic serving [::1]:44964: runtime error: invalid memory address or nil pointer dereference
+goroutine 53 [running]:
+net/http.(*conn).serve.func1(0xc4200bad20)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc420182380, 0xc4200ae800)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc420182380, 0xc4200ae800)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200bad20, 0x736400, 0xc420068ac0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:51 http: panic serving [::1]:44966: runtime error: invalid memory address or nil pointer dereference
+goroutine 29 [running]:
+net/http.(*conn).serve.func1(0xc420168460)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc4201f6460, 0xc42015e700)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc4201f6460, 0xc42015e700)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc420168460, 0x736400, 0xc420152880)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:51 http: panic serving [::1]:44968: runtime error: invalid memory address or nil pointer dereference
+goroutine 55 [running]:
+net/http.(*conn).serve.func1(0xc4200badc0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc420182460, 0xc4200ae900)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc420182460, 0xc4200ae900)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200badc0, 0x736400, 0xc420068bc0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:31:51 http: panic serving [::1]:44970: runtime error: invalid memory address or nil pointer dereference
+goroutine 57 [running]:
+net/http.(*conn).serve.func1(0xc4200bae60)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736200, 0xc420182540, 0xc4200aea00)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4201661a0, 0x736200, 0xc420182540, 0xc4200aea00)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200bae60, 0x736400, 0xc420068cc0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:18 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:32:18 Router initialized with port  :8089
+2018/09/20 15:32:20 http: panic serving [::1]:44976: runtime error: invalid memory address or nil pointer dereference
+goroutine 9 [running]:
+net/http.(*conn).serve.func1(0xc4200b88c0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420164000, 0xc4200ae300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc420164000, 0xc4200ae300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b88c0, 0x736420, 0xc420068440)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:20 http: panic serving [::1]:44978: runtime error: invalid memory address or nil pointer dereference
+goroutine 10 [running]:
+net/http.(*conn).serve.func1(0xc4200b8960)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188000, 0xc4200ae200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc420188000, 0xc4200ae200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8960, 0x736420, 0xc420068340)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:20 http: panic serving [::1]:44980: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc4201aa000)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201ca000, 0xc4201be000)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201ca000, 0xc4201be000)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201aa000, 0x736420, 0xc4201b8040)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:23 http: panic serving [::1]:44982: runtime error: invalid memory address or nil pointer dereference
+goroutine 12 [running]:
+net/http.(*conn).serve.func1(0xc4200b8a00)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201880e0, 0xc4200ae400)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201880e0, 0xc4200ae400)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8a00, 0x736420, 0xc4200685c0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:23 http: panic serving [::1]:44984: runtime error: invalid memory address or nil pointer dereference
+goroutine 36 [running]:
+net/http.(*conn).serve.func1(0xc4201aa0a0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201ca0e0, 0xc4201be100)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201ca0e0, 0xc4201be100)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201aa0a0, 0x736420, 0xc4201b8200)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:23 http: panic serving [::1]:44986: runtime error: invalid memory address or nil pointer dereference
+goroutine 14 [running]:
+net/http.(*conn).serve.func1(0xc4200b8aa0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201ca1c0, 0xc4200ae500)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201ca1c0, 0xc4200ae500)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8aa0, 0x736420, 0xc4200686c0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:28 http: panic serving [::1]:44990: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1(0xc4200b8b40)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201881c0, 0xc4200ae600)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201881c0, 0xc4200ae600)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8b40, 0x736420, 0xc420068740)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:28 http: panic serving [::1]:44992: runtime error: invalid memory address or nil pointer dereference
+goroutine 39 [running]:
+net/http.(*conn).serve.func1(0xc4201aa140)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201ca2a0, 0xc4201be200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201ca2a0, 0xc4201be200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201aa140, 0x736420, 0xc4201b8380)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:28 http: panic serving [::1]:44994: runtime error: invalid memory address or nil pointer dereference
+goroutine 50 [running]:
+net/http.(*conn).serve.func1(0xc4200b8be0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201ca380, 0xc4200ae700)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201ca380, 0xc4200ae700)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8be0, 0x736420, 0xc420068880)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:29 http: panic serving [::1]:44998: runtime error: invalid memory address or nil pointer dereference
+goroutine 51 [running]:
+net/http.(*conn).serve.func1(0xc4200b8c80)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201ca460, 0xc4200ae800)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201ca460, 0xc4200ae800)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8c80, 0x736420, 0xc420068900)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:29 http: panic serving [::1]:45000: runtime error: invalid memory address or nil pointer dereference
+goroutine 52 [running]:
+net/http.(*conn).serve.func1(0xc4200b8d20)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201640e0, 0xc4200ae900)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201640e0, 0xc4200ae900)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8d20, 0x736420, 0xc420068a00)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:32:29 http: panic serving [::1]:45002: runtime error: invalid memory address or nil pointer dereference
+goroutine 43 [running]:
+net/http.(*conn).serve.func1(0xc4201aa1e0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201641c0, 0xc4201be300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201641c0, 0xc4201be300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201aa1e0, 0x736420, 0xc4201b8580)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:33:00 http: panic serving [::1]:45006: runtime error: invalid memory address or nil pointer dereference
+goroutine 53 [running]:
+net/http.(*conn).serve.func1(0xc4200b8dc0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201642a0, 0xc4200aec00)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201642a0, 0xc4200aec00)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8dc0, 0x736420, 0xc420068c80)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:33:00 http: panic serving [::1]:45008: runtime error: invalid memory address or nil pointer dereference
+goroutine 54 [running]:
+net/http.(*conn).serve.func1(0xc4200b8e60)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201882a0, 0xc4200aeb00)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc4201882a0, 0xc4200aeb00)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200b8e60, 0x736420, 0xc420068b80)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:33:00 http: panic serving [::1]:45010: runtime error: invalid memory address or nil pointer dereference
+goroutine 22 [running]:
+net/http.(*conn).serve.func1(0xc4202a8000)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188380, 0xc4202aa000)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc420188380, 0xc4202aa000)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4202a8000, 0x736420, 0xc42015e240)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:00 http: panic serving [::1]:45012: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1(0xc4202a80a0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420164380, 0xc4202aa100)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc420164380, 0xc4202aa100)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4202a80a0, 0x736420, 0xc42015e2c0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:00 http: panic serving [::1]:45014: runtime error: invalid memory address or nil pointer dereference
+goroutine 24 [running]:
+net/http.(*conn).serve.func1(0xc4202a8140)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188460, 0xc4202aa200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc420188460, 0xc4202aa200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4202a8140, 0x736420, 0xc42015e340)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:00 http: panic serving [::1]:45016: runtime error: invalid memory address or nil pointer dereference
+goroutine 26 [running]:
+net/http.(*conn).serve.func1(0xc4202a81e0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188540, 0xc4202aa300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc420093380, 0x736220, 0xc420188540, 0xc4202aa300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4202a81e0, 0x736420, 0xc42015e440)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:20 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:34:20 Router initialized with port  :8089
+2018/09/20 15:34:23 http: panic serving [::1]:45022: runtime error: invalid memory address or nil pointer dereference
+goroutine 9 [running]:
+net/http.(*conn).serve.func1(0xc4200aa8c0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc42016e000, 0xc4200a0200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200851e0, 0x736220, 0xc42016e000, 0xc4200a0200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200aa8c0, 0x736420, 0xc420068340)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:23 http: panic serving [::1]:45024: runtime error: invalid memory address or nil pointer dereference
+goroutine 18 [running]:
+net/http.(*conn).serve.func1(0xc420154000)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc42016e0e0, 0xc4200a0300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200851e0, 0x736220, 0xc42016e0e0, 0xc4200a0300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc420154000, 0x736420, 0xc420068440)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:23 http: panic serving [::1]:45026: runtime error: invalid memory address or nil pointer dereference
+goroutine 19 [running]:
+net/http.(*conn).serve.func1(0xc4201540a0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201bc000, 0xc4201b2000)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200851e0, 0x736220, 0xc4201bc000, 0xc4201b2000)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201540a0, 0x736420, 0xc4201ac080)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:27 http: panic serving [::1]:45028: runtime error: invalid memory address or nil pointer dereference
+goroutine 21 [running]:
+net/http.(*conn).serve.func1(0xc420154140)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201e8000, 0xc4201b2100)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200851e0, 0x736220, 0xc4201e8000, 0xc4201b2100)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc420154140, 0x736420, 0xc4201ac200)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:27 http: panic serving [::1]:45030: runtime error: invalid memory address or nil pointer dereference
+goroutine 22 [running]:
+net/http.(*conn).serve.func1(0xc4201541e0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc42016e1c0, 0xc4201b2200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200851e0, 0x736220, 0xc42016e1c0, 0xc4201b2200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201541e0, 0x736420, 0xc4201ac280)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:34:27 http: panic serving [::1]:45032: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1(0xc420154280)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201bc0e0, 0xc4201b2300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200851e0, 0x736220, 0xc4201bc0e0, 0xc4201b2300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc420154280, 0x736420, 0xc4201ac400)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:42:47 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:42:47 Router initialized with port  :8089
+2018/09/20 15:49:00 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:49:00 Router initialized with port  :8089
+2018/09/20 15:49:11 http: panic serving [::1]:45118: runtime error: invalid memory address or nil pointer dereference
+goroutine 9 [running]:
+net/http.(*conn).serve.func1(0xc4200baa00)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420164000, 0xc4200ae300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc420164000, 0xc4200ae300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200baa00, 0x736420, 0xc420068480)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:11 http: panic serving [::1]:45120: runtime error: invalid memory address or nil pointer dereference
+goroutine 10 [running]:
+net/http.(*conn).serve.func1(0xc4200baaa0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188000, 0xc4200ae200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc420188000, 0xc4200ae200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200baaa0, 0x736420, 0xc420068380)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:11 http: panic serving [::1]:45122: runtime error: invalid memory address or nil pointer dereference
+goroutine 19 [running]:
+net/http.(*conn).serve.func1(0xc4201a2000)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201880e0, 0xc4201a4000)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc4201880e0, 0xc4201a4000)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201a2000, 0x736420, 0xc42015e0c0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:11 http: panic serving [::1]:45124: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc4201a20a0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201881c0, 0xc4201a4100)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc4201881c0, 0xc4201a4100)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201a20a0, 0x736420, 0xc42015e140)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:11 http: panic serving [::1]:45126: runtime error: invalid memory address or nil pointer dereference
+goroutine 21 [running]:
+net/http.(*conn).serve.func1(0xc4201a2140)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201882a0, 0xc4201a4200)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc4201882a0, 0xc4201a4200)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201a2140, 0x736420, 0xc42015e240)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:11 http: panic serving [::1]:45128: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0xc4201e2000)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188380, 0xc4201fc000)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc420188380, 0xc4201fc000)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201e2000, 0x736420, 0xc4201f8040)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:16 http: panic serving [::1]:45130: runtime error: invalid memory address or nil pointer dereference
+goroutine 35 [running]:
+net/http.(*conn).serve.func1(0xc4201e20a0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188460, 0xc4200ae400)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc420188460, 0xc4200ae400)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201e20a0, 0x736420, 0xc420068800)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:16 http: panic serving [::1]:45132: runtime error: invalid memory address or nil pointer dereference
+goroutine 36 [running]:
+net/http.(*conn).serve.func1(0xc4201e2140)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc42022a000, 0xc4201fc100)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc42022a000, 0xc4201fc100)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201e2140, 0x736420, 0xc4201f8140)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:16 http: panic serving [::1]:45134: runtime error: invalid memory address or nil pointer dereference
+goroutine 50 [running]:
+net/http.(*conn).serve.func1(0xc4200bab40)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc42022a0e0, 0xc4200ae500)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc42022a0e0, 0xc4200ae500)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200bab40, 0x736420, 0xc420068900)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:46 http: panic serving [::1]:45136: runtime error: invalid memory address or nil pointer dereference
+goroutine 51 [running]:
+net/http.(*conn).serve.func1(0xc4200babe0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc42022a1c0, 0xc4200ae700)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc42022a1c0, 0xc4200ae700)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200babe0, 0x736420, 0xc420068a00)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:46 http: panic serving [::1]:45138: runtime error: invalid memory address or nil pointer dereference
+goroutine 52 [running]:
+net/http.(*conn).serve.func1(0xc4200bac80)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188540, 0xc4200ae600)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc420188540, 0xc4200ae600)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4200bac80, 0x736420, 0xc420068980)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:49:46 http: panic serving [::1]:45140: runtime error: invalid memory address or nil pointer dereference
+goroutine 40 [running]:
+net/http.(*conn).serve.func1(0xc4201e21e0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188620, 0xc4201fc300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc420188620, 0xc4201fc300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201e21e0, 0x736420, 0xc4201f83c0)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:50:46 http: panic serving [::1]:45144: runtime error: invalid memory address or nil pointer dereference
+goroutine 41 [running]:
+net/http.(*conn).serve.func1(0xc4201e2280)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201640e0, 0xc4200ae800)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc4201640e0, 0xc4200ae800)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201e2280, 0x736420, 0xc420068b80)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:50:46 http: panic serving [::1]:45146: runtime error: invalid memory address or nil pointer dereference
+goroutine 42 [running]:
+net/http.(*conn).serve.func1(0xc4201e2320)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc420188700, 0xc4201fc400)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc420188700, 0xc4201fc400)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201e2320, 0x736420, 0xc4201f8440)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:50:46 http: panic serving [::1]:45148: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1(0xc4201a21e0)
+	/usr/local/go/src/net/http/server.go:1726 +0xd0
+panic(0x6a0ba0, 0x8868d0)
+	/usr/local/go/src/runtime/panic.go:502 +0x229
+github.com/julienschmidt/httprouter.(*Router).ServeHTTP(0x0, 0x736220, 0xc4201887e0, 0xc4201a4300)
+	/home/muhammadali/go/src/github.com/julienschmidt/httprouter/router.go:326 +0x37
+net/http.serverHandler.ServeHTTP(0xc4200932b0, 0x736220, 0xc4201887e0, 0xc4201a4300)
+	/usr/local/go/src/net/http/server.go:2694 +0xbc
+net/http.(*conn).serve(0xc4201a21e0, 0x736420, 0xc42015e440)
+	/usr/local/go/src/net/http/server.go:1830 +0x651
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2795 +0x27b
+2018/09/20 15:51:10 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:51:10 Router initialized with port  :8089
+2018/09/20 15:55:02 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 15:55:02 Router initialized with port  :8089
+2018/09/20 16:08:31 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 16:08:31 Router initialized with port  :8089
+2018/09/20 16:09:00 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 16:09:00 Router initialized with port  :8089
+2018/09/20 16:09:58 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 16:09:58 Router initialized with port  :8089
+2018/09/20 16:16:01 database: established with 127.0.0.1:5432/blogdb
+2018/09/20 16:16:01 Router initialized with port  :8089
