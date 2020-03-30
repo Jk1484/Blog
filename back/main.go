@@ -1,8 +1,6 @@
 package main
 
-import (
-	"./app"
-)
+import "blog/back/app"
 
 func main() {
 	app.Run()

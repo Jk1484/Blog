@@ -9,6 +9,8 @@ import (
 	_ "github.com/lib/pq"
 )
 
+var client *sql.DB
+
 // Init initialises connection with database
 func Init() (err error) {
 	var (
@@ -18,7 +20,7 @@ func Init() (err error) {
 	psqlInfo := fmt.Sprintf("user=%s password=%s dbname=%s host=%s port=%s sslmode=disable connect_timeout=10",
 		cfg.User, cfg.Password, cfg.DBName, cfg.Host, cfg.Port)
 
-	client, err := sql.Open("postgres", psqlInfo)
+	client, err = sql.Open("postgres", psqlInfo)
 
 	if err != nil {
 		return
@@ -38,4 +40,8 @@ func Init() (err error) {
 // Exit closes connection to database
 func Exit() {
 
+}
+
+func Client() *sql.DB {
+	return client
 }

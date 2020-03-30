@@ -890,3 +890,13 @@ created by net/http.(*Server).Serve
 2018/09/20 16:09:58 Router initialized with port  :8089
 2018/09/20 16:16:01 database: established with 127.0.0.1:5432/blogdb
 2018/09/20 16:16:01 Router initialized with port  :8089
+2020/03/30 13:51:46 Database err: pq: password authentication failed for user "muhammadali"
+2020/03/30 13:52:07 Database err: pq: password authentication failed for user "postgres"
+2020/03/30 13:52:19 database: established with 127.0.0.1:5432/blog
+2020/03/30 13:52:19 Router initialized with port  :8089
+2020/03/30 13:52:25 database: established with 127.0.0.1:5432/blog
+2020/03/30 13:52:25 Router initialized with port  :8089
+2020/03/30 13:53:13 database: established with 127.0.0.1:5432/blog
+2020/03/30 13:53:13 Router initialized with port  :8089
+2020/03/30 13:53:50 database: established with 127.0.0.1:5432/blog
+2020/03/30 13:53:50 Router initialized with port  :8089

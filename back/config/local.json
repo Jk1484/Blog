@@ -1,9 +1,9 @@
 {
     "database" : {
         "name" : "postgres",
-        "user" : "muhammadali",
-        "password" : "Ea9Skh@6",
-        "dbName" : "blogdb",
+        "user" : "postgres",
+        "password" : "q123",
+        "dbName" : "blog",
         "host" : "127.0.0.1",
         "port" : "5432"
     },
